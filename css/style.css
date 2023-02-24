@@ -276,10 +276,10 @@ body.mobile .mouseover .mouseover-helper-frame, body.mobile .mouseover .mouseove
 .button.type-1.light span, .button.type-2.light span{color: #fff;}
 .button.type-1.light:after, .button.type-2.light:after{background: #fff!important;}
 .button.type-2:after{height: 2px;}
-.button.type-3{color: #000; font-size: 12px; line-height: 18px; padding: 11px 30px; text-transform: uppercase; position: relative;}
-.button.type-3:before{position: absolute; left: 0; top: 0; right: 11px; bottom: 0; border-left: 1px #000 solid; border-bottom: 1px #000 solid; content: "";}
+.button.type-3{color: #fff; font-size: 12px; line-height: 18px; padding: 11px 30px; text-transform: uppercase; position: relative;}
+.button.type-3:before{position: absolute; left: 0; top: 0; right: 11px; bottom: 0; border-left: 1px #fff solid; border-bottom: 1px #fff solid; content: "";}
 .button.type-3:hover:before{left: 11px;}
-.button.type-3:after{position: absolute; left: 11px; top: 0; right: 0; bottom: 0; border-right: 1px #000 solid; border-top: 1px #000 solid; content:"";}
+.button.type-3:after{position: absolute; left: 11px; top: 0; right: 0; bottom: 0; border-right: 1px #fff solid; border-top: 1px #fff solid; content:"";}
 .button.type-3:hover:after{right: 11px;}
 .button.type-3.light{color: #fff;}
 .button.type-3.light:before, .button.type-3.light:after{border-color: #fff;}
@@ -349,7 +349,7 @@ body.mobile .mouseover .mouseover-helper-frame, body.mobile .mouseover .mouseove
 /*Phones (<768px)*/
 @media (max-width: 767px) {
 	.page-height.responsive-initial, body.min-height .page-height.responsive-initial{height: auto!important;}
-	.wide-container-fluid, .wide-container-fluid.wide-paddings, .wide-container{padding: 0 15px;}
+	.wide-container-fluid, .wide-container-fluid, .wide-container{padding: 0 15px;}
 	.simple-slider, .simple-slider.style-1{height: 300px;}
 }
 
@@ -2050,3 +2050,8 @@ blockquote{background: #efefef; padding: 50px 15px; text-align: center;}
 
 /*easing*/
 .homepage-4-slider .entry .background-wrapper, .homepage-4-slider .entry .text, .homepage-4-slider .entry .slide-title, .homepage-4-slider .entry .slide-description, .homepage-2-6-slider .background, .homepage-2-6-slider .text, .homepage-portfolio-preview-1 .background, .homepage-portfolio-preview-1 .text, .services-square-entry .layer-2{transition-timing-function:cubic-bezier(0.8, 0, 0.2, 1); -webkit-transition-timing-function:cubic-bezier(0.8, 0, 0.2, 1);}
+
+/*about span*/
+.bout {
+	text-decoration: line-through;
+}
