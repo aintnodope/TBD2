@@ -1373,7 +1373,7 @@ video{position: absolute; right: 0; top: 0; min-width: 100%; min-height: 100%; w
 /* 26 - ABOUT 1 */
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 .fonts-8{font-family: 'Inconsolata';}
-.fonts-8 .simple-article{font-family: 'Inconsolata';}
+.fonts-8 {font-family: 'Inconsolata';}
 .fonts-8 .simple-article h1, .fonts-8 .h1, .fonts-8 .simple-article h2, .fonts-8 .h2, .fonts-8 .simple-article h3, .fonts-8 .h3, .fonts-8 .simple-article h4, .fonts-8 .h4, .fonts-8 .simple-article h5, .fonts-8 .h5, .fonts-8 .simple-article h6, .fonts-8 .h6{font-family: 'Montserrat', sans-serif;}
 .fonts-8 .homepage-4-slider-navigation{font-weight: 700;}
 .fonts-8 nav{font-family: 'Montserrat', sans-serif;}
