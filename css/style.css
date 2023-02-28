@@ -2055,3 +2055,16 @@ blockquote{background: #efefef; padding: 50px 15px; text-align: center;}
 .bout {
 	text-decoration: line-through;
 }
+
+/*custom span*/
+.custom {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/*custom list */
+.custom_list {
+	list-style: none;
+	font-weight: bold;
+	text-align: left;
+}
